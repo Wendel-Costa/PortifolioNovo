@@ -1,4 +1,127 @@
+:root{
+    --cor-de-fundo: #0D1117;
+    --cor-de-fundo-dois: #161B22;
+    --cor-primaria: #3B82F6;
+    --cor-secundaria: #60A5FA;
+    --cor-terciaria: #A0AEC0;
+    --cor-de-texto: #E5E7EB;
+    --cor-de-destaque: #7C3AED;
+}
+
 *{
     padding: 0;
     margin: 0;
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+}
+
+h1, h2{
+    color: var(--cor-primaria);
+}
+
+h3{
+    color: var(--cor-secundaria);
+}
+
+p{
+    color: var(--cor-de-texto);
+}
+
+.cabecalho{
+    background-color: var(--cor-de-fundo-dois);
+
+    height: 1rem;
+    padding: 1rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.cabecalho-link{
+    color: var(--cor-de-texto);
+    text-decoration: none;
+}
+
+.secao{
+    background-color: var(--cor-de-fundo-dois);
+
+    padding: 1rem;
+
+    margin: 2rem 1rem;
+    border-radius: 1rem;
+}
+
+/* ÁREA DE INÍCIO*/
+
+.inicio{
+    display: flex;
+}
+
+.inicio-perfil{
+    width: 70%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.inicio-perfil-redes-rede{
+    color: var(--cor-terciaria);
+    text-decoration: none;
+}
+
+.inicio-imagem{
+    width: 40%;
+    border-radius: 100%;
+}
+
+/*ÁREA SOBRE MIM*/
+
+.sobre{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/* ÁREA DE SKILLS */
+.skills{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.skills-habilidades{
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills-habilidades-habilidade{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills-habilidades-habilidade-img{
+    width: 2rem;
+}
+
+/* ÁREA DE PROJETOS */
+
+.projetos{
+    margin: 2rem 1rem;
+    border-radius: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.projetos-projeto{
+    background-color: var(--cor-de-fundo-dois);
+    padding: 1rem;
+    height: 6rem;
 }

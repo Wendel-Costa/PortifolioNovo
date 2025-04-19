@@ -146,14 +146,20 @@ p {
     flex-direction: column;
     gap: 1.5rem;
     padding: 3rem 2rem;
+    align-items: center;
+}
+
+.sobre-texto{
+    font-size: 1.5rem;
 }
 
 .sobre-curriculo {
     color: var(--cor-de-texto);
+    font-size: 1.5rem;
     text-decoration: none;
     background-color: transparent;
     border: 2px solid var(--cor-primaria);
-    padding: 0.5rem 1rem;
+    padding: 1rem 2rem;
     border-radius: 2rem;
     width: fit-content;
     transition: background-color 0.3s ease, color 0.3s ease;
@@ -169,11 +175,13 @@ p {
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    padding: 3rem 2rem;
+    padding: 3rem 3rem;
+    align-items: center;
 }
 
 .skills-habilidades {
     display: flex;
+    width: 95%;
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 1rem;
@@ -210,6 +218,7 @@ p {
     flex-direction: column;
     gap: 2rem;
     padding: 3rem 2rem;
+    align-items: center;
 }
 
 .projetos-projeto {
@@ -229,7 +238,7 @@ p {
 
 .projetos-projeto-imagem {
     width: 20rem;
-    height: auto; /* Ajusta a altura automaticamente */
+    height: auto;
     object-fit: cover;
 }
 
@@ -276,7 +285,7 @@ p {
     background-color: rgba(0, 0, 0, 0.8);
     z-index: 1000;
     backdrop-filter: blur(5px);
-    overflow-y: auto; /* Permite rolagem na aba */
+    overflow-y: auto;
 }
 
 .aba-detalhes-conteudo {
@@ -287,8 +296,8 @@ p {
     max-width: 800px;
     border-radius: 1rem;
     position: relative;
-    max-height: 90vh; /* Limita a altura máxima */
-    overflow-y: auto; /* Adiciona rolagem vertical */
+    max-height: 90vh;
+    overflow-y: auto;
 }
 
 .aba-detalhes-fechar {
@@ -376,14 +385,14 @@ p {
 }
 
 .deslizar-esquerda {
-    animation: deslizarEsquerda 1s ease-out forwards;
+    animation: deslizarEsquerda 2s ease-out forwards;
 }
 
 .deslizar-direita {
-    animation: deslizarDireita 1s ease-out forwards;
+    animation: deslizarDireita 2s ease-out forwards;
 }
 
-/* Responsividade para telas menores */
+/* Responsividade*/
 @media (max-width: 768px) {
     .secao{
         width: 100%;
@@ -401,8 +410,8 @@ p {
 
     .projetos-projeto-imagem {
         width: 100%;
-        max-height: none; /* Remove a altura fixa */
-        height: auto; /* Ajusta a altura ao conteúdo */
+        max-height: none;
+        height: auto;
     }
 
     .projetos-projeto-detalhes {

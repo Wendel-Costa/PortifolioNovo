@@ -9,59 +9,58 @@
 </head>
 <body>
     <header class="cabecalho">
-        <a href="#inicio" class="cabecalho-link">início</a>
-        <a href="#sobre" class="cabecalho-link">sobre</a>
-        <a href="#skills" class="cabecalho-link">skills</a>
-        <a href="#projetos" class="cabecalho-link">projetos</a>
+        <a href="#inicio" class="cabecalho-link">Início</a>
+        <a href="#sobre" class="cabecalho-link">Sobre</a>
+        <a href="#skills" class="cabecalho-link">Skills</a>
+        <a href="#projetos" class="cabecalho-link">Projetos</a>
     </header>
 
     <section id="inicio" class="inicio secao">
         <div class="inicio-perfil">
-            <h1>Wendel Costa</h1>
-            <h3>Desenvolvedor de Software</h3>
-            <nav class="inicio-perfil-redes">
+            <h1 class="inicio-perfil-nome deslizar-esquerda">Wendel Costa</h1>
+            <h3 class="inicio-perfil-area deslizar-esquerda">Desenvolvedor de Software</h3>
+            <nav class="inicio-perfil-redes deslizar-esquerda">
                 <a href="https://www.linkedin.com/in/wendelcosta-tech/" target="_blank" class="inicio-perfil-redes-rede">
-                    <i class="fa-brands fa-linkedin" style="color: red;"></i>
-                    LinkedIn</a>
-
+                    <i class="fa-brands fa-linkedin"></i> LinkedIn
+                </a>
                 <a href="https://github.com/Wendel-Costa" target="_blank" class="inicio-perfil-redes-rede">
-                    <i class="fa-brands fa-square-github" style="color: red;"></i>
-                    Github</a>
+                    <i class="fa-brands fa-square-github"></i> Github
+                </a>
             </nav>
         </div>
-        <img src="icons/foto.png" alt="foto de perfil" class="inicio-imagem">
+        <img src="icons/foto.png" alt="foto de perfil" class="inicio-imagem deslizar-direita">
     </section>
 
     <section id="sobre" class="sobre secao">
-        <h1>Sobre Mim</h1>
-        <p>Sou desenvolvedor de software full stack, cursando o 5° período de Engenharia de Computação. Possuo experiência em desenvolvimento backend com Node.js e frontend com React.js, além noções de análise de dados com Python.</p>
-        <a href="https://docs.google.com/document/d/1ON3JHuKWd7XlN8O7fr7U7fa5WFxKhWNCVXCwc-Kawhk/edit?usp=sharing" class="sobre-curriculo">Currículo</a>
+        <h1 class="deslizar-esquerda">Sobre Mim</h1>
+        <p class="deslizar-esquerda">Sou desenvolvedor de software full stack, cursando o 5° período de Engenharia de Computação. Possuo experiência em desenvolvimento backend com Node.js e frontend com React.js, além de noções de análise de dados com Python.</p>
+        <a href="https://docs.google.com/document/d/1ON3JHuKWd7XlN8O7fr7U7fa5WFxKhWNCVXCwc-Kawhk/edit?usp=sharing" class="sobre-curriculo deslizar-esquerda">Abrir CV</a>
     </section>
 
     <section id="skills" class="skills secao">
-        <h1>skills</h1>
+        <h1 class="deslizar-esquerda">Skills</h1>
         <div class="skills-habilidades">
-            <div class="skills-habilidades-habilidade">
+            <div class="skills-habilidades-habilidade deslizar-esquerda">
                 <img src="icons/javascript.png" alt="javascript" class="skills-habilidades-habilidade-img">
-                <p>javascript</p>
+                <p>Javascript</p>
             </div>
-            <div class="skills-habilidades-habilidade">
+            <div class="skills-habilidades-habilidade deslizar-esquerda">
                 <img src="icons/nodejs.png" alt="nodejs" class="skills-habilidades-habilidade-img">
                 <p>Node.js</p>
             </div>
-            <div class="skills-habilidades-habilidade">
+            <div class="skills-habilidades-habilidade deslizar-esquerda">
                 <img src="icons/react.png" alt="react" class="skills-habilidades-habilidade-img">
                 <p>React.js</p>
             </div>
-            <div class="skills-habilidades-habilidade">
+            <div class="skills-habilidades-habilidade deslizar-direita">
                 <img src="icons/mongodb.png" alt="mongobd" class="skills-habilidades-habilidade-img">
                 <p>MongoDB</p>
             </div>
-            <div class="skills-habilidades-habilidade">
+            <div class="skills-habilidades-habilidade deslizar-direita">
                 <img src="icons/mysql.png" alt="mysql" class="skills-habilidades-habilidade-img">
                 <p>MySQL</p>
             </div>
-            <div class="skills-habilidades-habilidade">
+            <div class="skills-habilidades-habilidade deslizar-direita">
                 <img src="icons/python.png" alt="python" class="skills-habilidades-habilidade-img">
                 <p>Python</p>
             </div>
@@ -69,40 +68,74 @@
     </section>
 
     <section id="projetos" class="projetos">
-        <h1>Projetos</h1>
-        <div class="projetos-projeto">
-            <img src="icons/ProjetoFlashApp.png" alt="FlashApp" class="projetos-projeto-imagem">
+        <h1 class="deslizar-esquerda">Projetos</h1>
+        <div class="projetos-projeto deslizar-esquerda" data-projeto="flashcards">
+            <img src="icons/flashapp1.png" alt="FlashApp" class="projetos-projeto-imagem">
             <div class="projetos-projeto-detalhes">
                 <h2>FlashCards App</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore natus sint adipisci cupiditate veniam obcaecati iusto voluptatibus sit autem quasi unde, a ipsam libero maxime recusandae delectus! Porro, illum atque?lo</p>
+                <p>Aplicação web para criar e estudar flashcards. Utiliza a IA do Gemini para gerar conteúdo baseado em tópicos definidos pelo usuário. Desenvolvido com JavaScript, Node.js, Express, MongoDB e integra a API do google Gemini.</p>
                 <nav class="projetos-projeto-detalhes-navegacao">
-                    <a href="" class="projetos-projeto-detalhes-navegacao-projeto">Ver Projeto</a>
-                    <a href="" class="projetos-projeto-detalhes-navegacao-repositorio"> Ver Repositório</a>
+                    <a href="https://apiflashcards.vercel.app/" target="_blank"  class="projetos-projeto-detalhes-navegacao-projeto">Ver Projeto</a>
+                    <a href="https://github.com/Wendel-Costa/FlashcardsApp" target="_blank" class="projetos-projeto-detalhes-navegacao-repositorio">Ver Repositório</a>
                 </nav>
             </div>
         </div>
-        <div class="projetos-projeto">
+
+        <div class="projetos-projeto deslizar-esquerda" data-projeto="studyapp">
+            <img src="icons/studyapp1.png" alt="StudyApp" class="projetos-projeto-imagem">
+            <div class="projetos-projeto-detalhes">
+                <h2>StudyApp</h2>
+                <p>Um site de estudos com funcionalidades de temporizador para sessões focadas, sistema de gerenciamento de tarefas e organização por temas de estudo. Desenvolvido com HTML, CSS e JavaScript.</p>
+                <nav class="projetos-projeto-detalhes-navegacao">
+                    <a href="https://studyapp-two.vercel.app/" target="_blank" class="projetos-projeto-detalhes-navegacao-projeto">Ver Projeto</a>
+                    <a href="https://github.com/Wendel-Costa/StudyApp" target="_blank" class="projetos-projeto-detalhes-navegacao-repositorio">Ver Repositório</a>
+                </nav>
+            </div>
+        </div>
+
+        <div class="projetos-projeto deslizar-esquerda" data-projeto="landing">
             <img src="icons/ProjetoEstacaoTech.png" alt="landing" class="projetos-projeto-imagem">
             <div class="projetos-projeto-detalhes">
                 <h2>Landing Page</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore natus sint adipisci cupiditate veniam obcaecati iusto voluptatibus sit autem quasi unde, a ipsam libero maxime recusandae delectus! Porro, illum atque?lo</p>
+                <p>Uma landing page feita para auxiliar as estações tech de comunidades do maranhão, construída com HTML, CSS e JavaScript. O design é responsivo e otimizado.</p>
                 <nav class="projetos-projeto-detalhes-navegacao">
-                    <a href="" class="projetos-projeto-detalhes-navegacao-projeto">Ver Projeto</a>
-                    <a href="" class="projetos-projeto-detalhes-navegacao-repositorio"> Ver Repositório</a>
+                    <a href="https://conexao-estacao-tech.vercel.app/" target="_blank" class="projetos-projeto-detalhes-navegacao-projeto">Ver Projeto</a>
+                    <a href="https://github.com/Wendel-Costa/Conexao-Estacao-Tech" target="_blank" class="projetos-projeto-detalhes-navegacao-repositorio">Ver Repositório</a>
                 </nav>
             </div>
         </div>
-        <div class="projetos-projeto">
+
+        <div class="projetos-projeto deslizar-esquerda" data-projeto="todo">
             <img src="icons/ProjetoNotasToDo.png" alt="notas ToDo" class="projetos-projeto-imagem">
             <div class="projetos-projeto-detalhes">
                 <h2>Notas ToDo</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore natus sint adipisci cupiditate veniam obcaecati iusto voluptatibus sit autem quasi unde, a ipsam libero maxime recusandae delectus! Porro, illum atque?lo</p>
+                <p>Um aplicativo de tarefas e notas, permitindo aos usuários gerenciar suas atividades diárias. Desenvolvido com javascript.</p>
                 <nav class="projetos-projeto-detalhes-navegacao">
-                    <a href="" class="projetos-projeto-detalhes-navegacao-projeto">Ver Projeto</a>
-                    <a href="" class="projetos-projeto-detalhes-navegacao-repositorio"> Ver Repositório</a>
+                    <a href="https://notas-to-do.vercel.app/" target="_blank" class="projetos-projeto-detalhes-navegacao-projeto">Ver Projeto</a>
+                    <a href="https://github.com/Wendel-Costa/NotasToDo" target="_blank"  class="projetos-projeto-detalhes-navegacao-repositorio">Ver Repositório</a>
                 </nav>
             </div>
         </div>
     </section>
+
+    <div class="aba-detalhes" id="aba-detalhes-projeto">
+        <div class="aba-detalhes-conteudo">
+            <span class="aba-detalhes-fechar"><i class="fa-solid fa-times"></i></span>
+            <h2 id="aba-titulo"></h2>
+            <p id="aba-descricao"></p>
+            <div class="carrossel">
+                <button class="carrossel-anterior"><i class="fa-solid fa-chevron-left"></i></button>
+                <div class="carrossel-imagens" id="aba-carrossel">
+                </div>
+                <button class="carrossel-proximo"><i class="fa-solid fa-chevron-right"></i></button>
+            </div>
+            <nav class="aba-detalhes-navegacao">
+                <a href="" id="aba-projeto-link" target="_blank"  class="aba-detalhes-navegacao-projeto">Ver Projeto</a>
+                <a href="" id="aba-repositorio-link" target="_blank" class="aba-detalhes-navegacao-repositorio">Ver Repositório</a>
+            </nav>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
